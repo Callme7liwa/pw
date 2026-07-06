@@ -26,9 +26,9 @@ const FLAGS: Record<string, React.FC<{ title?: string; className?: string }>> = 
 // Served from /public via <Image>. width/height are locked to the file's true
 // natural ratio (659×1024) so it's never distorted, then rendered small. The
 // right instance reuses the same source and is flipped with scaleX(-1) — the
-// file is never duplicated. `unoptimized`: the asset is an already-compact avif
-// the browser renders natively, so we skip re-encoding. Purely decorative →
-// alt='', aria-hidden. Grayscale / opacity / positioning live in .laurel.
+// file is never duplicated. Served as-is via the custom static-export image
+// loader (no re-encoding). Purely decorative → alt='', aria-hidden. Grayscale /
+// opacity / positioning live in .laurel.
 const LAUREL_NATURAL = { w: 659, h: 1024 }
 const LAUREL_W = 62
 const LAUREL_H = Math.round((LAUREL_W * LAUREL_NATURAL.h) / LAUREL_NATURAL.w)
@@ -38,7 +38,6 @@ function Laurel({ side }: { side: 'left' | 'right' }) {
       src="/laurel.avif"
       alt=""
       aria-hidden="true"
-      unoptimized
       className="laurel"
       width={LAUREL_W}
       height={LAUREL_H}
