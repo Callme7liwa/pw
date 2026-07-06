@@ -30,7 +30,9 @@ export async function generateMetadata({
       title,
       description,
       type: 'article',
-      images: project.sections?.[0]?.image ? [project.sections[0].image] : undefined,
+      images: project.sections?.[0]?.image
+        ? [`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${project.sections[0].image}`]
+        : undefined,
     },
   }
 }

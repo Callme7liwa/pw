@@ -15,6 +15,9 @@ const sans = Manrope({
 })
 
 export const metadata: Metadata = {
+  // Deployed base URL (GitHub Pages project site) so relative OG/twitter image
+  // paths resolve to absolute URLs. Change this if you move to a custom domain.
+  metadataBase: new URL('https://callme7liwa.github.io/pw/'),
   title: `${siteConfig.name} — Full-stack Developer & AI Architect`,
   description:
     'I build products and make them intelligent with AI agents. Complex full-stack builds shipped clean, agentic workflow automation built to last. Available for freelance and startup projects.',

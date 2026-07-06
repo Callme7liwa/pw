@@ -13,8 +13,10 @@ const nextConfig: NextConfig = {
   // Pages resolves `/work/` -> `/work/index.html`; trailing slashes keep links
   // pointing at real files on a static host.
   trailingSlash: true,
-  // The default image optimizer needs a server; serve images as-is instead.
-  images: { unoptimized: true },
+  // The default optimizer needs a server, and static-export next/image does not
+  // prepend basePath to image src — a custom loader handles both (see
+  // ./image-loader.ts). External URLs pass through; local assets get /pw.
+  images: { loader: 'custom', loaderFile: './image-loader.ts' },
   ...(basePath ? { basePath } : {}),
   // Exposed to the client so components can prefix non-managed asset/hash URLs.
   env: { NEXT_PUBLIC_BASE_PATH: basePath },
