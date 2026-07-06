@@ -1,0 +1,595 @@
+[
+  {
+    "slug": "agrocontrol",
+    "name": "AgroControl",
+    "sector": "agriculture",
+    "type": "Web app",
+    "cover": "/projects/agro/3.png",
+    "tagline": "A farm operations hub where daily planning feels as clear as a weather forecast.",
+    "blurb": "One screen for the whole farm — tasks, crew, equipment, costs and real-time alerts in a single predictable flow.",
+    "seoTitle": "AgroControl — Farm Operations Management Software (Case Study)",
+    "seoDescription": "AgroControl is a farm operations management platform that unifies task planning, workforce scheduling, equipment tracking, cost visibility and real-time alerts into one clear dashboard for small and mid-sized farms.",
+    "overview": "AgroControl is a farm operations hub where daily planning feels as clear as a weather forecast. One screen shows what's happening on the fields, what's in motion, who's on duty and what's at risk today. From task planning to workforce scheduling, equipment tracking, cost visibility and real-time alerts, it turns scattered farm operations into one predictable flow — fewer surprises, faster decisions and a team that stays aligned even when the day gets hectic.",
+    "highlights": [
+      "Task planning & assignment",
+      "Workforce scheduling",
+      "Equipment tracking",
+      "Cost visibility",
+      "Real-time alerts"
+    ],
+    "sections": [
+      {
+        "title": "Tasks board",
+        "image": "/projects/agro/1.png",
+        "body": "A single board to create, assign and track farm work — with clear statuses (planned, in progress, completed, overdue), priorities and assignees. See who's on what without digging through chats or spreadsheets, catch issues early, and keep scouting, maintenance and harvest prep moving — for fewer missed deadlines and more predictable operations."
+      },
+      {
+        "title": "Workers view",
+        "image": "/projects/agro/2.png",
+        "body": "Keep the whole crew in check without endless calls and follow-ups. Every worker shows at a glance — role, current task and how busy they are — with capacity indicators and skill tags that reveal who's overloaded, who's free and who fits the next job. Add a worker or reassign tasks in seconds to keep the day balanced."
+      },
+      {
+        "title": "Operations dashboard",
+        "image": "/projects/agro/3.png",
+        "body": "One glance at what matters: who's on duty, equipment readiness, workload versus capacity and whether spending is tracking to plan. A compact set of KPIs and a workload-vs-capacity chart give an honest read on the next few days, while an integrated field map keeps conditions in context — a calmer start with fewer blind spots."
+      },
+      {
+        "title": "Equipment tracking",
+        "image": "/projects/agro/4.png",
+        "body": "Every machine gets a profile — specs, a live stream of alerts and service updates, and the daily route showing how it moved and worked across the farm. Catch issues like signal drops or pressure problems before they become downtime, and track output across daily, weekly and monthly patterns for reliable planning."
+      },
+      {
+        "title": "Worker profile",
+        "image": "/projects/agro/5.png",
+        "body": "Everything about one team member in a single view: what they're doing now, workload across the week, productivity trends and visualized skills — so you match the right task to the right person and spot gaps early. Assign, contact or adjust right from the profile to keep staffing realistic when priorities shift."
+      }
+    ]
+  },
+  {
+    "slug": "realtiintel",
+    "name": "RealtiIntel",
+    "sector": "real-estate",
+    "type": "White-label SaaS",
+    "cover": "/projects/realtiintel/first.png",
+    "tagline": "A white-label real estate market intelligence platform that turns raw MLS data into client-ready insight.",
+    "blurb": "Turns live MLS data into market dashboards, a predictive Market PowerScore, and one-click CMA reports — fully re-brandable per brokerage.",
+    "seoTitle": "RealtiIntel — White-Label Real Estate Market Intelligence Platform (Case Study)",
+    "seoDescription": "RealtiIntel (Insight) is a white-label real estate market intelligence platform that ingests live MLS data, enriches it with mortgage-rate data, and delivers interactive market dashboards, a predictive Market PowerScore, and one-click CMA reports for agents and brokerages.",
+    "overview": "Insight is a white-label real estate market intelligence platform that turns raw MLS listing data into actionable insight for agents and brokerages. It ingests live listings from the MLS PIN feed (Bridge Data Output API), enriches them with economic data like Federal Reserve 30-year mortgage rates (FRED API), and surfaces everything through interactive dashboards, predictive analytics and client-ready report generators — so agents can price homes accurately, time listings, craft winning offers and present analyses that win listings. It's fully re-brandable per customer, with role-based access separating agent tools from admin data and branding.",
+    "highlights": [
+      "Live MLS data ingestion",
+      "Predictive Market PowerScore",
+      "One-click CMA reports",
+      "24-month market trends",
+      "White-label re-branding",
+      "Role-based access"
+    ],
+    "tech": [
+      "React 18",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "TanStack Query",
+      "Recharts",
+      "NestJS",
+      "Prisma",
+      "PostgreSQL",
+      "AWS S3"
+    ],
+    "sections": [
+      {
+        "title": "Market Overview",
+        "images": ["/projects/realtiintel/marketoverview.png"],
+        "body": "A real-time 'at a glance' view of current residential inventory for any geography — region, town, ZIP or property type. Executive stat cards surface live listings, market median price, the top town and the dominant property type, while a natural-language Market Pulse banner turns the raw numbers into plain-English insight — backed by price-by-town, inventory-by-type and price-trend charts. All aggregation runs client-side over live data, so filtered views stay meaningful."
+      },
+      {
+        "title": "Market Snapshot",
+        "images": ["/projects/realtiintel/marketsnaptshot.png"],
+        "body": "The historical, time-series counterpart to the Overview: 24 months of data with year-over-year comparisons. Sixteen metric cards — median sold price, price per sq ft, inventory, days on market, absorption, price cuts and volume — carry sparklines and YoY badges alongside four 24-month trend charts. A strategic Market Pulse panel classifies the market as seller-leaning, balanced or buyer-leaning (cross-checked against the Market PowerScore), and an Agent/Client toggle rephrases the guidance for either audience."
+      },
+      {
+        "title": "Market PowerScore",
+        "images": ["/projects/realtiintel/marketpowerscore.png"],
+        "body": "The flagship feature: a composite 0–100 score of how strongly a market favours sellers or buyers, built from four weighted pillars — momentum, structural imbalance, pricing reaction and macro durability — mapped to bands from Weak to Peak Strength. A forecasting model projects the score 30/60/90 days out with a probability for each band, and a rule-based engine writes plain-English interpretations and outlooks (no AI calls). A cross-town ranking compares whole markets by strength; scores come from cached daily snapshots and recompute live on filter."
+      },
+      {
+        "title": "CMA Generator",
+        "images": ["/projects/realtiintel/cmagenerator.png", "/projects/realtiintel/cmagenerator2.png"],
+        "body": "A one-click Comparative Market Analysis that produces presentation-ready valuations. An agent enters an address; the system resolves the property, pulls the best sold comparables — from MLS closed sales and a private off-market library, widening the search until enough quality comps are found — and returns a suggested list-price range with live market context. Valuation is median price-per-sq-ft across comps, anchored by a time-adjusted last sale. Agents curate comps, apply per-comp and condition adjustments, and switch between Seller and Buyer modes — then export a branded PDF bundling a price-vs-sqft scatter, comps table, market conditions, PowerScore and seasonal timing."
+      },
+      {
+        "title": "Market Opportunities",
+        "images": ["/projects/realtiintel/markeopportunity.png", "/projects/realtiintel/markeopportunity2.png", "/projects/realtiintel/markeopportunity3.png"],
+        "body": "A value-detection tool that surfaces underpriced active listings — homes priced meaningfully below the market's average price-per-sq-ft, especially ones lingering on the market (potential motivated sellers). Each listing gets a 0–100 Opportunity Score blending discount depth vs market $/sqft, days on market and estimated dollar savings, mapped to A/B/C tiers — each paired with an agent playbook (underwrite now / monitor / watchlist). Agents filter by discount and days-on-market, auto-build a Top-5 A-tier shortlist, and export to CSV or a copy-ready memo, with an Agent/Client toggle and a below-market distribution chart. It's framed as a value-gap estimator, not a guarantee — savings are modeled, not promised."
+      },
+      {
+        "title": "Best Time to Sell",
+        "images": ["/projects/realtiintel/besttimetosell1.png", "/projects/realtiintel/besttimetosell2.png"],
+        "body": "A seasonality predictor that tells a seller which calendar months historically produce the best selling outcomes in their specific market. It analyzes years of closed MLS sales (a configurable 3 / 5 / 20-year window), scoring each month 0–100 on a weighted Sell Score — median close price, sale speed and list-to-sold ratio — using medians to resist outliers and guards to exclude thin-sample months. On top of the ranking, a decision layer adds strategy modes (Balanced, Max Price, Fastest Close, Lowest Risk), a decomposed confidence score, a 'Wait vs. Now' simulator that nets projected price gains against carrying costs, and a town-vs-metro benchmark — surfaced as a color-coded score chart, a 12-month grid and a copy-ready memo."
+      },
+      {
+        "title": "Best Time to Buy",
+        "images": ["/projects/realtiintel/besttimetobuy1.png", "/projects/realtiintel/besttimetobuy2.png"],
+        "body": "The mirror image of Best Time to Sell, built on the same engine but inverted to reveal when buyers hold the most negotiating leverage. It buckets closed sales by close-date month and computes a Buyer Advantage Score weighting the buyer-favoring signals — low list-to-sold ratio, high days on market and price softness. High-scoring months are when homes sit longest and sellers accept below asking; D-grade months warn of competitive seller's markets. It carries the same tooling — buyer strategy modes, a confidence breakdown, a carrying-cost-aware wait simulator, and explainability bars for each signal's contribution — plus a 'how to read this' callout that makes the inverse relationship explicit."
+      },
+      {
+        "title": "Seller Listing Intel",
+        "images": ["/projects/realtiintel/sellerlistingintel1.png", "/projects/realtiintel/sellerlistingintel2.png"],
+        "body": "A decision-support dashboard answering 'should I list now, and how should I price?'. It fuses three live layers for the selected market — the Market Power Score, the current month's seasonal Sell Grade, and live pricing signals (list-to-sold ratio, median days on market, price-reduction rate) — into an Executive Listing Decision: a timing call, a pricing posture and a confidence level. It distills a ranked 'Top 3 Actions', each with an impact rating and data-confidence score, that sellers can accept or defer into a persistent Execution Journal and later log realized outcomes (Beat / Met / Missed) to track ROI. An animated market gauge, KPI tiles and a copy-ready memo round out the view."
+      },
+      {
+        "title": "Buyer Offer Intel",
+        "images": ["/projects/realtiintel/buyerofferintel1.png", "/projects/realtiintel/buyerofferintel2.png"],
+        "body": "A precision offer-pricing tool that, for a specific property's asking price and days on market, generates three calibrated offer tiers anchored to the market's historical closing ratios. From an anchor (asking × the month's median list-to-sold ratio) it applies a days-on-market leverage discount and a Market-Power tilt to produce Conservative (maximum negotiating room), Smart Bet (the recommended tier) and Bold Move (built to win multi-offer situations), each rounded to the nearest $1,000. It layers on an Executive Offer Decision with an urgency read, confidence and negotiation posture, plus the same Top-3-Actions and Execution Journal workflow — surfacing signals like escalation probability, days-on-market leverage and the live seasonal Buy Grade through offer-tier cards, a market gauge and KPI tiles."
+      }
+    ]
+  },
+  {
+    "slug": "zebeyond",
+    "name": "ZeBeyond",
+    "sector": "automotive",
+    "type": "Web platform",
+    "cover": "/projects/ZeBeyond/1.png",
+    "tagline": "A clear, credible product experience for ePOP — high-fidelity powertrain simulation for electrification.",
+    "blurb": "The product site for ePOP simulation — decision-ready case studies, an interactive engineering workflow, capabilities and blog, fully responsive.",
+    "seoTitle": "ZeBeyond — Powertrain Simulation Platform Website (ePOP Case Study)",
+    "seoDescription": "ZeBeyond's ePOP is a high-fidelity powertrain simulation platform for electrification. The product website turns complex engineering into decision-ready case studies, an interactive workflow, clear capabilities, an engineering blog and a seamless mobile experience.",
+    "overview": "ZeBeyond is the product platform behind ePOP — a high-fidelity powertrain simulation tool that helps automotive teams design and validate electrified drivetrains virtually, replacing costly trial-and-error. The website turns a deeply technical methodology into a clear, credible experience: an interactive engineering workflow, decision-ready case studies, a structured capabilities section, an insight-driven blog and a fully responsive mobile experience — all built to help engineers and decision-makers evaluate simulation quickly and connect it to real business and engineering value.",
+    "highlights": [
+      "Decision-ready case studies",
+      "Interactive engineering workflow",
+      "Capabilities overview",
+      "Insight-driven blog",
+      "Responsive mobile experience"
+    ],
+    "sections": [
+      {
+        "title": "Case Studies Built for Decision-Making",
+        "images": ["/projects/ZeBeyond/1.png"],
+        "body": "A structured Case Studies section that turns complex engineering work into clear, scannable stories — each one framing the challenge, the simulation approach and the measurable results, so engineers and decision-makers can judge outcomes without wading through dense technical material. Industry filters, consistent layouts and visual cues make it easy to compare projects across use cases and vehicle types, strengthening credibility and connecting ZeBeyond's technology to practical engineering and business value."
+      },
+      {
+        "title": "End-to-End Engineering Workflow",
+        "images": ["/projects/ZeBeyond/2.png"],
+        "body": "An interactive workflow that maps how ePOP supports engineers from early concept exploration to component specification, making it clear where the platform fits into their process and how virtual testing replaces costly trial-and-error. Visualizing the lifecycle step by step turns a complex methodology into an intuitive experience — engineers see exactly when to benchmark, compare architectures and validate performance, while decision-makers gain confidence in how simulation accelerates development, reduces risk and supports electrification goals."
+      },
+      {
+        "title": "Insight-Driven Engineering Blog",
+        "images": ["/projects/ZeBeyond/3.png"],
+        "body": "A knowledge hub that translates complex engineering topics into clear, practical insight — covering simulation methods, electrification trends and real-world use cases to keep engineers informed and give decision-makers a broader market and technology view. Clean card layouts, readable typography and consistent tagging make content easy to scan, supporting thought leadership, improving SEO and positioning ZeBeyond as a credible voice in advanced powertrain engineering and system simulation."
+      },
+      {
+        "title": "Seamless Mobile Experience",
+        "images": ["/projects/ZeBeyond/4.png"],
+        "body": "A mobile experience that preserves clarity and depth on smaller screens: capabilities, case studies and pricing adapt into clean, touch-friendly layouts built for quick scanning and effortless navigation. Responsive components, simplified hierarchies and prioritized content let engineers and decision-makers explore ZeBeyond anytime — reviewing features, comparing plans or requesting a demo — keeping engagement high beyond the desktop workflow."
+      },
+      {
+        "title": "Clear Capabilities for Faster Evaluation",
+        "images": ["/projects/ZeBeyond/5.png"],
+        "body": "A structured capabilities section that breaks complex functionality into clear, digestible blocks — each highlighting a core ePOP function, from high-fidelity cycle modeling to architecture comparison and decision support, so both technical depth and practical value land quickly. By mapping features directly to outcomes, it supports fast scanning for decision-makers, gives engineers confidence in the system's robustness, and shortens the path from interest to action."
+      }
+    ]
+  },
+  {
+    "slug": "trulia",
+    "name": "Trulia",
+    "sector": "real-estate",
+    "type": "Web app",
+    "cover": "/projects/trulia/1.png",
+    "tagline": "A real estate platform that reimagines property search — for buyers, sellers and agents.",
+    "blurb": "A property-search platform with advanced filters, 3D listings, agent connect, virtual open houses and investment analysis.",
+    "seoTitle": "Trulia — Real Estate Property Search Platform (Case Study)",
+    "seoDescription": "Trulia is a real estate software that reimagines property search with advanced filters, detailed 3D listings, agent connect, virtual open houses, investment analysis and smart alerts for buyers, sellers and agents.",
+    "overview": "Trulia is a real estate software designed to revolutionize the property search experience — combining innovative technology with user-centric design to give home buyers, sellers and real estate agents a seamless, efficient platform. From advanced search filters and detailed 3D listings to agent connect, virtual open houses, investment analysis and smart alerts, it brings the whole journey of finding, evaluating and closing on a home into one considered product.",
+    "tags": ["AI", "Web App", "CRM", "SaaS", "UX Design"],
+    "highlights": [
+      "Advanced search filters",
+      "Detailed 3D listings",
+      "Agent Connect",
+      "Virtual open houses",
+      "Investment analysis",
+      "Viewing schedule management",
+      "Calendar integration",
+      "Price trend analysis",
+      "Deal proposal management",
+      "Saved searches & alerts"
+    ],
+    "gallery": [
+      "/projects/trulia/1.png",
+      "/projects/trulia/2.png",
+      "/projects/trulia/4.png",
+      "/projects/trulia/5.png",
+      "/projects/trulia/6.png",
+      "/projects/trulia/7.png"
+    ]
+  },
+  {
+    "slug": "apex",
+    "name": "APEX",
+    "sector": "fitness",
+    "type": "Web app",
+    "cover": "/projects/apex/dashboard.png",
+    "tagline": "An AI-powered strength-coaching platform with a dark, editorial aesthetic.",
+    "blurb": "AI strength-coaching SaaS — analytics dashboard, conversational AI coach, exercise library and adaptive programs, in a dark editorial UI.",
+    "seoTitle": "APEX — AI Fitness Coaching SaaS Platform (Case Study)",
+    "seoDescription": "APEX is an AI-powered fitness coaching SaaS built with React, TypeScript, Tailwind CSS and Framer Motion — a polished MVP with an analytics dashboard, a conversational AI coach, an exercise library and adaptive training programs.",
+    "overview": "APEX is an AI-powered fitness coaching SaaS — a production-grade web application that delivers personalized strength-training programs, real-time workout tracking and intelligent coaching insights. Built end-to-end with React, TypeScript, Tailwind CSS and Framer Motion, it wears a dark, editorial aesthetic inspired by Linear and Whoop, with a custom design system, 9+ responsive dashboard screens, Recharts data visualization and smooth motion interactions — a polished MVP that demonstrates senior-level UI/UX and front-end engineering.",
+    "tags": ["AI", "SaaS", "Web App", "UI/UX Design"],
+    "highlights": [
+      "Analytics dashboard",
+      "Conversational AI coach",
+      "Exercise library",
+      "Adaptive programs",
+      "Custom design system",
+      "Recharts data viz"
+    ],
+    "tech": ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Recharts"],
+    "sections": [
+      {
+        "title": "Dashboard",
+        "images": ["/projects/apex/dashboard.png"],
+        "body": "A high-density analytics dashboard that serves as the athlete's command center — animated Recharts area charts for strength progress, weekly volume bar charts, a recovery-score ring gauge with SVG animation, a live session-streak counter, and an editorial 'Intel' banner with signal-line animation. The layout balances data density with clarity, turning complex fitness metrics into an intuitive, glanceable interface."
+      },
+      {
+        "title": "AI Coach",
+        "images": ["/projects/apex/coach.png"],
+        "body": "A real-time conversational coaching interface that simulates a personal-trainer relationship — an animated chat thread with typing indicators, contextual suggestion chips and a smart message composer. The AI persona delivers data-driven advice on rep ranges, load adjustments and recovery, so it feels like messaging an elite coach rather than a generic chatbot."
+      },
+      {
+        "title": "Exercise Library",
+        "images": ["/projects/apex/exerciselibrary.png"],
+        "body": "A browsable, filterable exercise catalog with cinematic photography cards — hover-zoom imagery, muscle-group and difficulty badges, gradient overlays and smooth Framer Motion entrance animations. Live search and category filtering demonstrate both visual polish and functional UX for content-heavy interfaces."
+      },
+      {
+        "title": "My Program",
+        "images": ["/projects/apex/myprogram.png"],
+        "body": "A week-by-week training-program viewer with session cards, status indicators and an AI rationale panel. Each session shows exercise lists with sets, reps and loads, duration metadata and contextual CTAs (Start Session, View Recap, Preview), while a timeline of recent adjustments shows how the AI adapts the plan to recovery and performance — a complex, state-driven interface made clear."
+      }
+    ],
+    "gallery": ["/projects/apex/landing.png", "/projects/apex/login.png"]
+  },
+  {
+    "slug": "eliteseats",
+    "name": "EliteSeats",
+    "sector": "sports",
+    "type": "Web app",
+    "cover": "/projects/foot-tickets/1.png",
+    "tagline": "A premium, conversion-focused marketplace for football tickets to the world's biggest matches.",
+    "blurb": "A responsive football ticket marketplace with dynamic SEO match pages, tiered ticketing, real-time availability, multi-currency pricing and Shopify checkout.",
+    "seoTitle": "EliteSeats — Premium Football Ticket Marketplace (Case Study)",
+    "seoDescription": "EliteSeats is a conversion-focused football ticket marketplace built with Next.js 14, TypeScript and Tailwind CSS — with dynamic SEO-optimized match pages, tiered ticketing, real-time availability, multi-currency pricing and Shopify checkout.",
+    "overview": "A modern, conversion-focused football ticketing web app where fans browse and buy tickets for the world's biggest matches — El Clásico, Champions League finals, World Cup 2026 and top-flight fixtures across Europe. It showcases 18 real-world fixtures across La Liga, the Premier League, Serie A, the Bundesliga and international competitions, each with a dynamic detail page carrying multiple ticket tiers (from general seating to VIP hospitality), live availability states, seat-count urgency and multi-currency pricing — with checkout handed off to Shopify for secure payment and instant e-ticket delivery.",
+    "tags": ["Web App", "Marketplace", "E-commerce", "SEO"],
+    "highlights": [
+      "Dynamic SEO match pages",
+      "Tiered ticketing",
+      "Real-time availability",
+      "Multi-currency (€/£/$)",
+      "Urgency & social proof",
+      "Sticky mobile buy button",
+      "Shopify checkout",
+      "Responsive dark theme"
+    ],
+    "tech": ["Next.js 14", "React 18", "TypeScript", "Tailwind CSS", "Shopify"],
+    "gallery": [
+      "/projects/foot-tickets/1.png",
+      "/projects/foot-tickets/2.png",
+      "/projects/foot-tickets/3.png",
+      "/projects/foot-tickets/4.png",
+      "/projects/foot-tickets/5.png"
+    ]
+  },
+  {
+    "slug": "lyricscape",
+    "name": "Lyricscape Creations",
+    "sector": "music",
+    "type": "Full-stack web app",
+    "cover": "/projects/music/1.png",
+    "tagline": "A Genius-style music & lyrics community where fans discover artists and annotate lyrics — and artists run their own catalog.",
+    "blurb": "A Genius-style music & lyrics community — catalog, annotations, social feeds, a Lyrics Card Maker, editorial blog, award voting and artist collaboration.",
+    "seoTitle": "Lyricscape Creations — Music & Lyrics Community Platform (Case Study)",
+    "seoDescription": "Lyricscape Creations is a full-stack, Genius-style music and lyrics community platform — with artist catalog management, lyric annotations, social feeds, a Lyrics Card Maker, an editorial blog CMS, community award voting and artist collaboration workflows.",
+    "overview": "A full-stack music & lyrics community platform — a Genius-style destination where fans discover artists, read and annotate lyrics, follow creators, vote in awards and publish editorial content, while artists manage their own catalog and collaborate with peers. It blends a music catalog, a social layer, an editorial blog and a community voting system into one platform, with verified-artist ownership, monthly and yearly award polls, an artist-to-artist collaboration request/approval flow, Genius-synced profiles and an admin dashboard for verification and moderation.",
+    "tags": ["Full-stack", "Social", "CMS", "Web App"],
+    "highlights": [
+      "Artist & catalog management",
+      "Social engagement",
+      "Lyrics Card Maker",
+      "Editorial blog CMS",
+      "Community award voting",
+      "Artist collaboration workflow",
+      "Genius integration",
+      "Admin dashboard",
+      "S3 media management"
+    ],
+    "tech": ["AWS S3", "Cheerio", "html-to-image"],
+    "gallery": [
+      "/projects/music/1.png",
+      "/projects/music/2.png",
+      "/projects/music/3.png",
+      "/projects/music/4.png",
+      "/projects/music/5.png",
+      "/projects/music/6.png",
+      "/projects/music/7.png",
+      "/projects/music/8.png",
+      "/projects/music/9.png"
+    ]
+  },
+  {
+    "slug": "titleflow",
+    "name": "TitleFlow",
+    "sector": "real-estate",
+    "type": "SaaS platform · Demo",
+    "cover": "/projects/mobilehome/landing.png",
+    "tagline": "Turning a nine-week paper title transfer into a five-day orchestrated pipeline.",
+    "blurb": "A premium SaaS that digitizes mobile-home title transfers end to end — an ops console and seller portal replacing a 9-week paper process with a 5-day pipeline.",
+    "seoTitle": "TitleFlow — Mobile Home Title Transfer SaaS Platform (Case Study)",
+    "seoDescription": "TitleFlow is a premium SaaS platform that digitizes mobile-home title transfers end to end — replacing a nine-week paper process with a five-day orchestrated pipeline connecting sellers, buyers, notaries and the DMV, with an operations console and a seller portal.",
+    "overview": "TitleFlow is a premium SaaS platform that digitizes mobile-home title transfers end to end — replacing a paper-bound nine-week process with a five-day orchestrated pipeline that connects sellers, buyers, notaries and the DMV. It pairs an operations console for the internal team with a seller-facing client portal, wrapped in a Linear/Stripe-inspired editorial design language: deep navy, electric blue, Instrument Serif accents, mono-tracked micro-labels, 12px radii and 1px hairline borders. Shown here as a design-complete demo while the production platform is being built.",
+    "tags": ["SaaS", "Proptech", "Web App", "UI/UX Design"],
+    "highlights": [
+      "Ops command dashboard",
+      "Case management",
+      "Role-based team access",
+      "Throughput & financial reports",
+      "Seller client portal",
+      "Multi-step intake wizard",
+      "Document vault",
+      "In-app messaging"
+    ],
+    "tech": ["React 19", "TanStack Start", "Tailwind v4", "Lovable Cloud"],
+    "sections": [
+      {
+        "title": "Operations dashboard",
+        "images": ["/projects/mobilehome/dashboard.png"],
+        "body": "The operations team's command center. A KPI strip — active cases, average close time, approval rate and revenue — sits above a live case pipeline and an editorial activity feed, engineered so a 400-case workload reads as scannable in about five seconds rather than buried in spreadsheets."
+      },
+      {
+        "title": "Case management",
+        "images": ["/projects/mobilehome/cases.png"],
+        "body": "A filterable case index with status pills, jurisdiction tags and assignee avatars, where row-level hover reveals quick actions. Each case detail page brings the timeline, documents, parties and messages into a single, calm scroll — so a case lead always has the full picture in one place."
+      },
+      {
+        "title": "Team & roles",
+        "images": ["/projects/mobilehome/team.png"],
+        "body": "Roster management with role-based access for admins, notaries and paralegals — workload distribution, per-member case counts and an invite flow with scoped permissions, so the right people see exactly what they should and nothing more."
+      },
+      {
+        "title": "Reports & analytics",
+        "images": ["/projects/mobilehome/reports1.png", "/projects/mobilehome/reports2.png"],
+        "body": "An analytics surface with two lenses. Operational throughput tracks cases closed, cycle time and bottlenecks by state; the financial view breaks down revenue, refunds and per-jurisdiction performance. Both are export-ready for the team's own reporting."
+      },
+      {
+        "title": "Seller client portal",
+        "images": ["/projects/mobilehome/portal-overview.png"],
+        "body": "The seller's mission control. A hero stepper shows exactly where their title stands — Intake → Docs → Notary → DMV → Closed — beside an integrated activity timeline and recent documents with one-click download, so a stressful process finally feels transparent."
+      },
+      {
+        "title": "Document vault",
+        "images": ["/projects/mobilehome/portal-documents.png"],
+        "body": "A clean document vault with search, status badges (Pending Signature, Signed, Uploaded) and hover-revealed preview and download actions — so nothing about a transfer ever gets lost between the parties involved."
+      },
+      {
+        "title": "In-app messaging",
+        "images": ["/projects/mobilehome/portal-messages.png"],
+        "body": "A direct line to the assigned case lead with a chat-tool UX — online indicators, typing feedback and Cmd+Enter send — keeping every conversation attached to its case instead of scattered across email and phone calls."
+      }
+    ],
+    "gallery": ["/projects/mobilehome/landing.png", "/projects/mobilehome/login.png"]
+  },
+  {
+    "slug": "tspeaksnyc-pulse",
+    "name": "TSpeaksNYC Pulse",
+    "sector": "education",
+    "type": "Full-stack web app",
+    "cover": "/projects/brainbloom/login.png",
+    "tagline": "A K-12 wellbeing platform that turns a daily student check-in into support — before small struggles become crises.",
+    "blurb": "Students check in daily, teachers see their classroom's emotional pulse live, and leaders get privacy-safe analytics — with MTSS-tiered support that escalates when concern persists.",
+    "seoTitle": "TSpeaksNYC Pulse — K-12 Student Wellbeing & SEL Platform (Case Study)",
+    "seoDescription": "TSpeaksNYC Pulse is a K-12 Social-Emotional Learning (SEL) and student wellbeing platform. Students do a quick daily emotional check-in, teachers see a live class pulse and run MTSS-tiered interventions, and school and district leaders get privacy-safe, aggregated dashboards, benchmarking and post-lesson impact reflections.",
+    "overview": "TSpeaksNYC Pulse is a K-12 Social-Emotional Learning (SEL) and student wellbeing platform that helps schools and districts understand how students are actually feeling — and act on it early. Students do a quick daily emotional check-in (a mood plus what's driving it); teachers see their classroom's emotional pulse in real time, flag students who need support, and run structured post-lesson reflections to measure whether an SEL lesson actually helped; and school and district leaders get privacy-safe, aggregated dashboards, benchmarking and exportable reports. The whole system is a closed loop: students share → teachers respond → leaders measure impact → support escalates through MTSS-style tiers when concern signals persist. Four roles — Student, Teacher, School Admin and District Admin — each get a tailored dashboard, all behind role-based access guards.",
+    "highlights": [
+      "Daily emotional check-ins",
+      "Live classroom pulse",
+      "MTSS tiered interventions",
+      "Post-lesson impact reflections",
+      "Privacy-safe leader dashboards",
+      "District-wide benchmarking"
+    ],
+    "tech": [
+      "React 18",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Recharts",
+      "Framer Motion",
+      "NestJS",
+      "Prisma",
+      "PostgreSQL",
+      "JWT Auth",
+      "AWS S3"
+    ],
+    "tags": ["K-12 SEL", "Student Wellbeing", "Role-based Dashboards", "MTSS Tiered Support", "Analytics & Reporting"],
+    "sections": [
+      {
+        "title": "The daily check-in",
+        "image": "/projects/brainbloom/student-view.png",
+        "body": "The student experience is built to feel safe, quick and encouraging — not clinical. A student taps a mood (Happy, Calm, Okay, Worried, Sad, Frustrated), picks what's affecting it (school, tests, friends, home, sleep, stress, health…) and can leave a private note for their counselor — one baseline check-in per school day. After a difficult mood, the app offers a short grounding exercise (box breathing, a 5-4-3-2-1 sensory reset) instead of just recording sadness, and a weekly self-awareness streak with milestone badges turns honest reflection into a healthy habit. Every response is clearly marked as shared only with trusted school support staff."
+      },
+      {
+        "title": "The teacher's class pulse",
+        "images": ["/projects/brainbloom/teacher-dashboard-1.png", "/projects/brainbloom/teacher-dashboard-2.png"],
+        "body": "Teachers get a live command center for their classroom's emotional health. A Class Pulse roster sorts every student into Needs Support, No Check-in Yet or On Track — each with their latest mood, recency and a class mood average — while a proactive \"students who may need support today\" banner surfaces at-risk students (difficult-mood streaks or stale check-ins) behind a one-click filtered view. Teachers can flag a student with a note, open a formal Tier 1 intervention and escalate to Tier 2 (Tier 3 needs admin approval), with interventions visible across classes so support follows the student. A 30-day history drills into any student's mood trajectory."
+      },
+      {
+        "title": "Measured impact, not just data",
+        "image": "/projects/brainbloom/teacher-dashboard-3.png",
+        "body": "The reflection loop is what makes the platform more than a mood tracker. A teacher launches a timed post-lesson reflection tied to a specific SEL lesson, and sees in near real-time the percentage of students who felt better afterward — with a full impact summary (improved / no change / worsened, mood drivers, notes) and CSV export. Because it pairs a before-and-after mood comparison, it actually quantifies whether a lesson changed how students feel. Teachers also browse and open district-published SEL lessons from an in-app curriculum library and export a teacher summary PDF."
+      },
+      {
+        "title": "School & district leadership analytics",
+        "images": ["/projects/brainbloom/admin-dashboard-1.png", "/projects/brainbloom/admin-dashboard-2.png", "/projects/brainbloom/admin-dashboard-3.png", "/projects/brainbloom/admin-people-acces.png", "/projects/brainbloom/admin-people-access-2.png", "/projects/brainbloom/admin-curriculum.png", "/projects/brainbloom/admin-curriculum-add.png"],
+        "body": "Leaders get a 30-second read and the depth to back it up. A School Admin sees the mood mix (Positive / Neutral / Struggling), flagged students and classes needing support across any date range (7/30/90 days, full school year or custom), plus KPIs — participation rate, total check-ins, open interventions and wellbeing trends with period-over-period comparisons — and per-class benchmarking with configurable thresholds. District Admins get the same across every school: a district-wide rollup with a school selector, side-by-side school intel cards, cross-school benchmarking, school creation and Tier 3 escalation authority. People and access management (bulk CSV onboarding, password resets, deactivation that preserves history) and curriculum publishing round out the admin tooling."
+      },
+      {
+        "title": "Privacy by design, production-grade backend",
+        "image": "/projects/brainbloom/login.png",
+        "body": "Leader-facing dashboards are strictly aggregated — no student names appear in school or district sentiment views, and student notes flow only to support staff. The MTSS-aligned Tier 1→2→3 escalation model mirrors how real schools structure interventions, with authority role-gated at each level. Under the hood: a NestJS + Prisma REST API with JWT auth, role-based access guards on every endpoint, forced initial-password-change and reset flows, request throttling on check-ins, S3-backed file storage and CSV/PDF reporting pipelines — the kind of guarantees a district needs before it trusts a platform with how its students feel."
+      }
+    ]
+  },
+  {
+    "slug": "vevvo",
+    "name": "VEVVO",
+    "sector": "field-service",
+    "type": "Multi-tenant SaaS",
+    "cover": "/projects/vevvo/landing.png",
+    "tagline": "An all-in-one operations platform that runs a contracting business from first lead to paid invoice — in one workspace.",
+    "blurb": "Runs a trade contractor's whole company end to end — leads, signable estimates, scheduling, invoicing, online payments and AI automation — replacing a patchwork of spreadsheets and single-purpose apps.",
+    "seoTitle": "VEVVO — All-in-One Operations Platform for Trade & Flooring Contractors (Case Study)",
+    "seoDescription": "VEVVO is a multi-tenant SaaS that runs a trade or flooring contractor's entire company from first lead to paid invoice — CRM and sales pipeline, tiered e-sign estimates, invoicing with Stripe card/ACH payments, crew scheduling and GPS time tracking, catalog and inventory, automated reviews and referrals, and a Claude-powered AI copilot.",
+    "overview": "VEVVO is an all-in-one business operations platform for trade and flooring contractors — a multi-tenant SaaS that runs a contractor's entire company from first lead to paid invoice in a single workspace. It replaces the patchwork of spreadsheets, paper estimates, separate invoicing tools and scheduling apps that small contracting businesses juggle. The platform follows the real-world revenue lifecycle end to end: capture a lead → send a signable estimate → win the job → schedule the crew → track materials and time → send an invoice → collect payment online → automatically request a review and referral. Every stage lives in one connected system, so data flows forward instead of being re-entered — and a Claude-powered copilot, FlowPro, drafts estimates, moves jobs between statuses and writes follow-ups along the way.",
+    "highlights": [
+      "Lead-to-cash lifecycle",
+      "Tiered e-sign estimates",
+      "Stripe card & ACH payments",
+      "Crew scheduling & GPS time tracking",
+      "Catalog & live inventory",
+      "FlowPro AI copilot",
+      "Automated reviews & referrals",
+      "Multi-tenant, internationalized"
+    ],
+    "tech": [
+      "React 19",
+      "TypeScript",
+      "Vite 7",
+      "Tailwind CSS 4",
+      "Radix UI",
+      "TanStack Query",
+      "Express 5",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "Clerk",
+      "Stripe Connect",
+      "Twilio",
+      "Anthropic Claude API"
+    ],
+    "tags": ["Multi-tenant SaaS", "Contractor Ops", "Payments & Stripe Connect", "AI Copilot", "pnpm Monorepo"],
+    "sections": [
+      {
+        "title": "Overview — the command center",
+        "image": "/projects/vevvo/overview.png",
+        "body": "The dashboard contractors land on after signing in. A bento-style KPI grid surfaces the numbers that matter — monthly revenue, total pipeline value, active jobs and outstanding balances — each with trend indicators comparing against the prior period. Below it, an interactive revenue-trend chart (switchable across time ranges), a 7-day upcoming-jobs list and a live activity feed give owners an at-a-glance pulse on the entire business, without opening five different tools to get it."
+      },
+      {
+        "title": "Leads — one inbox for every opportunity",
+        "image": "/projects/vevvo/leads.png",
+        "body": "A unified inbox for every incoming opportunity. Leads flow in automatically from embeddable public web forms, online booking pages and Facebook Lead Ads, then land in a triage view where they can be qualified, assigned, booked into a consultation, and converted into a customer and job — all without leaving the screen. Automated notifications alert the team the moment a new lead arrives, so nothing slips through the cracks between the phone ringing and the crew showing up."
+      },
+      {
+        "title": "Estimates — a site visit becomes a signable quote",
+        "image": "/projects/vevvo/estimates.png",
+        "body": "A guided estimating workflow that turns a site visit into a professional, signable quote. Contractors build line items from their catalog, add room-by-room measurements, and offer tiered pricing (standard / premium / lifetime) so customers choose their level. Finished estimates export to branded PDFs and send as public links where the customer reviews, e-signs and can even opt into financing — with live view-tracking so the contractor knows the exact moment it's been opened."
+      },
+      {
+        "title": "Invoices — get-paid infrastructure for the field",
+        "image": "/projects/vevvo/invoices.png",
+        "body": "Invoices generate directly from won estimates or jobs, then email to the customer with a public payment page that accepts card and ACH (with an optional ACH discount). The system supports deposits, milestone and partial billing, recurring invoices, automatic late fees and scheduled overdue reminders — and reconciles payments in real time via Stripe webhooks, so balances are always accurate and the contractor isn't chasing money by hand."
+      },
+      {
+        "title": "Materials — catalog and inventory in one source of truth",
+        "image": "/projects/vevvo/materials.png",
+        "body": "A combined catalog and inventory manager: one row per material with its price, cost, waste percentage, margin and on-hand stock, so estimating and purchasing draw from a single source of truth. Contractors organize items into categories, receive and adjust stock, and generate purchase orders to suppliers — keeping job costing accurate and preventing the 'we ran out mid-install' surprises that quietly eat a job's margin."
+      },
+      {
+        "title": "Crew — the labor backbone",
+        "image": "/projects/vevvo/crew.png",
+        "body": "The team roster and labor backbone. Owners add crew members with their role, hourly rate, overtime multiplier, contact info and skill tags, then use those records to schedule jobs, track GPS/geofenced clock-ins and run 1099 payouts via Stripe Connect. Role-based badges and admin-gated controls keep sensitive pay data restricted to owners and admins, so the whole team can use the system without seeing what they shouldn't."
+      },
+      {
+        "title": "Marketing site — the public front door",
+        "image": "/projects/vevvo/landing.png",
+        "body": "The public site that converts visitors into signups. A conversion-focused hero pairs a bold value proposition with a live product mock, trust badges and a clear primary CTA, followed by an 'As Seen On' press strip, credibility signals, feature highlights and social proof. It's part of a broader marketing site engineered for SEO and performance, with programmatic city- and trade-specific landing pages driving organic traffic straight into the lead funnel."
+      }
+    ],
+    "gallery": ["/projects/vevvo/login.png"]
+  },
+  {
+    "slug": "periochart-pro",
+    "name": "PerioChart Pro",
+    "sector": "healthcare",
+    "type": "Multi-tenant SaaS",
+    "cover": "/projects/perioflow/dashboard.png",
+    "tagline": "Periodontal charting and full practice management for dental cabinets — in one bilingual, multi-tenant tool.",
+    "blurb": "Combines full-mouth periodontal charting with patients, billing, prescriptions, inventory and role-based team collaboration — each practice its own isolated, approval-gated workspace.",
+    "seoTitle": "PerioChart Pro — Periodontal Charting & Dental Practice Management (Case Study)",
+    "seoDescription": "PerioChart Pro is a multi-tenant web app for dental practices that combines interactive full-mouth periodontal charting with practice management — patients, PDF invoicing and prescriptions, inventory, and role-based team collaboration — with FDI/Universal tooth numbering, multi-currency billing and email-OTP multi-factor auth.",
+    "overview": "PerioChart Pro is a web application for dental practices (\"cabinets\") that combines periodontal charting with full practice management — patients, billing, prescriptions, inventory and team collaboration — in a single tool. Each practice is a self-contained workspace owned by a practitioner, who can invite team members (dentists, assistants) with granular, role-based permissions governing what each person can view, create or delete, and new practices pass through an approval workflow before activation. The clinical core is an interactive full-mouth chart that records six sites per tooth and automatically flags deep pockets and at-risk patients; around it sits the administrative machinery a real cabinet needs — PDF invoices and prescriptions, inventory with expiry alerts, and legal/billing identity — all bilingual (FR/EN), multi-currency (MAD/EUR) and secured with email-OTP multi-factor auth.",
+    "highlights": [
+      "Full-mouth periodontal charting",
+      "Automatic deep-pocket risk flags",
+      "FDI & Universal tooth numbering",
+      "PDF invoices & prescriptions",
+      "Inventory with expiry alerts",
+      "Role-based team permissions",
+      "Multi-tenant, approval-gated practices",
+      "Bilingual FR/EN · multi-currency"
+    ],
+    "tech": [
+      "React 18",
+      "TypeScript",
+      "Vite",
+      "TailwindCSS",
+      "shadcn/ui",
+      "TanStack Query",
+      "NestJS",
+      "TypeORM",
+      "JWT + Email-OTP MFA",
+      "pdfkit / jsPDF",
+      "Nodemailer",
+      "Swagger / OpenAPI"
+    ],
+    "tags": ["Dental SaaS", "Practice Management", "Periodontal Charting", "Multi-tenant", "Bilingual FR/EN"],
+    "sections": [
+      {
+        "title": "Dashboard",
+        "image": "/projects/perioflow/dashboard.png",
+        "body": "The practice's home screen: an at-a-glance summary of daily activity and the key clinical and business indicators that matter. Crucially, it surfaces periodontal-risk signals — patients with deep pockets flagged from their latest charts — so the team can prioritize follow-ups instead of waiting for the next routine visit. It's the bridge between the clinical record and the day-to-day running of the cabinet."
+      },
+      {
+        "title": "Periodontal chart — the clinical core",
+        "images": ["/projects/perioflow/grill1.png", "/projects/perioflow/grill2.png"],
+        "body": "The heart of the app: an interactive full-mouth grid where the clinician records, per tooth, six measurement sites (facial & lingual × distal / mid / mesial) capturing probing depth, gingival margin/recession, bleeding on probing and plaque — plus mobility, furcation, implant status and missing teeth. Deep pockets are highlighted automatically, both FDI and Universal tooth-numbering systems are supported, and each exam is saved as a dated visit so the practitioner can track disease progression across time rather than judging a single snapshot."
+      },
+      {
+        "title": "Patient records",
+        "image": "/projects/perioflow/patient-info.png",
+        "body": "A complete patient file: demographics and contact details, full visit history with every saved periodontal chart, and linked invoices and prescriptions — the entire clinical and administrative picture of a patient in one place. Member-level visibility controls let a practice hide specific patients from individual team members when confidentiality calls for it."
+      },
+      {
+        "title": "Prescriptions (ordonnance)",
+        "image": "/projects/perioflow/ordonannce.png",
+        "body": "Create and issue prescriptions with a structured medication list (drug, dosage, instructions, duration), diagnosis and clinical advice. Each is auto-numbered per practice (e.g. ORD-2026-0001), rendered as a professional PDF and can be emailed directly to the patient — and linked back to the specific visit it came from, so the record stays coherent."
+      },
+      {
+        "title": "Billing & invoices",
+        "body": "Itemized invoices generated from acts and treatments — act code, description, quantity, unit price, discount % and VAT %, with automatic totals computed to integer-cent precision and sequential auto-numbering (F-2026-0001). Each invoice carries a legal snapshot of the cabinet's identity (ICE/IF/RC, IBAN), moves through draft → sent → paid → cancelled statuses with a full timeline audit trail, warns about missing mandatory legal fields, exports to PDF and sends by email — to the patient on file or a custom recipient."
+      },
+      {
+        "title": "Inventory & stock",
+        "image": "/projects/perioflow/stock.png",
+        "body": "Track clinical supplies with quantity on hand, reorder thresholds and expiry dates, organized by supplier. Stock movements — restocks, consumption and adjustments — are logged with cost, and the system surfaces low-stock and expiring-item alerts so the practice never discovers mid-procedure that it's out of something critical."
+      },
+      {
+        "title": "Cabinet parameters & team",
+        "image": "/projects/perioflow/cabinet-parameters.png",
+        "body": "The practice's configuration hub: establishment identity (name, address, contact, logo), legal and billing details, currency and locale, the invoice numbering scheme, and the practitioner's professional profile (title, specialty, license, ICE/IF/RC, IBAN/BIC, signature). It's also where team management lives — inviting dentists and assistants and setting each member's granular, per-action permissions."
+      },
+      {
+        "title": "Multi-tenant workspaces, roles & security",
+        "body": "Under the product sits a serious access-control layer. Every practitioner owns an isolated, multi-tenant workspace that only goes live after an approval workflow (pending → approved / rejected), managed by platform admins with a full audit log. Team members are invited by email into admin / dentist / assistant roles, then narrowed further by per-action permissions and per-member data-visibility overrides. Accounts are protected by JWT sessions with email-OTP multi-factor auth, bcrypt hashing, rate limiting and security headers — and access control is enforced on every clinical, billing and inventory action, not just the UI."
+      }
+    ]
+  }
+]
