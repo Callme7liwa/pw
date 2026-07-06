@@ -73,10 +73,17 @@ function MagneticLink({
   const reset = () => {
     if (ref.current) ref.current.style.transform = ''
   }
+  // Internal root-absolute links need the basePath (raw <a> doesn't get it like
+  // next/link) plus a trailing slash to match the static export's file layout.
+  let resolved = href
+  if (!external && href.startsWith('/')) {
+    resolved = `${process.env.NEXT_PUBLIC_BASE_PATH || ''}${href}`
+    if (!/[#?]/.test(resolved) && !resolved.endsWith('/')) resolved += '/'
+  }
   return (
     <a
       ref={ref}
-      href={href}
+      href={resolved}
       className={className}
       onMouseMove={onMove}
       onMouseLeave={reset}

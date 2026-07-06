@@ -31,7 +31,7 @@ export const hook = {
   // Compact trust line (Section 13 · one trust moment up high)
   trustCaption: 'Trusted by founders & agencies',
   primaryCta: { label: 'Book a call' },        // → siteConfig.calLink
-  secondaryCta: { label: 'See the work', href: '#act3-fork' },
+  secondaryCta: { label: 'See the work', href: '/work' },
   // Marquee captions (Act 1 trust rows). Logos themselves are read dynamically
   // from /public/collaborations at build time — nothing to list here.
   companiesCaption: 'Trusted by teams at',
