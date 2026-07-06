@@ -15,6 +15,10 @@ const links = [
   { label: 'Contact', href: '/#act6' },
 ]
 
+// Raw <a> homepage-anchor links don't get basePath auto-applied (unlike
+// next/link), so prepend it manually for the deployed /pw site.
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH || ''
+
 export function Nav() {
   return (
     <div className="nav-shell">
@@ -27,7 +31,7 @@ export function Nav() {
         <div className="nav-links">
           {links.map(({ label, href }) =>
             href.includes('#') ? (
-              <a key={href} href={href} className="nav-link">
+              <a key={href} href={`${BASE}${href}`} className="nav-link">
                 {label}
               </a>
             ) : (
