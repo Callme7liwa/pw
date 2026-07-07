@@ -18,7 +18,13 @@ export const metadata: Metadata = {
   // Deployed base URL (GitHub Pages project site) so relative OG/twitter image
   // paths resolve to absolute URLs. Change this if you move to a custom domain.
   metadataBase: new URL('https://callme7liwa.github.io/pw/'),
-  title: `${siteConfig.name} — Full-stack Developer & AI Architect`,
+  // Browser-tab title is ALWAYS just the name. `default` covers pages with no
+  // title; `template` has no %s, so any child page's title is replaced by the
+  // name too (the descriptive text lives in openGraph for social cards only).
+  title: {
+    default: siteConfig.name,
+    template: siteConfig.name,
+  },
   description:
     'I build products and make them intelligent with AI agents. Complex full-stack builds shipped clean, agentic workflow automation built to last. Available for freelance and startup projects.',
   keywords: [
