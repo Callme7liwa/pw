@@ -146,4 +146,23 @@ export const designPieces: DesignPiece[] = [
       '/design/mobile-tasks/4.webp',
     ],
   },
+  {
+    slug: 'food-delivery-mobile',
+    category: 'Mobile Design',
+    name: 'Food Delivery Apps',
+    title: 'Food Delivery — Mobile App UI Concepts',
+    tagline: 'A set of food-delivery app UI concepts — browse, order, track.',
+    color: '#E23B4B',
+    paragraphs: [
+      'A collection of mobile UI concepts for food and grocery delivery apps. Each shot pairs three screens from a different app, exploring a range of directions rather than a single flow — a showcase of how varied a delivery experience can look.',
+      'Across the set you’ll find product detail with nutrition facts and add-to-cart, browsable home feeds with categories, and live order tracking with courier hand-off — the core moments of a delivery journey, styled several different ways.',
+      'The goal here is range: different layouts, color moods, and interaction patterns, all held to the same bar of clarity and polish so the food always stays the hero.',
+    ],
+    shots: [
+      '/design/delivery/1.webp',
+      '/design/delivery/2.webp',
+      '/design/delivery/3.webp',
+      '/design/delivery/4.webp',
+    ],
+  },
 ]
