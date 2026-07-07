@@ -2,6 +2,7 @@ import { Nav } from '@/components/layout/Nav'
 import { Act1Hook } from '@/components/sections/Act1Hook'
 import { Act15Book } from '@/components/sections/Act15Book'
 import { SelectedWork } from '@/components/sections/SelectedWork'
+import { SelectedDesign } from '@/components/sections/SelectedDesign'
 import { Act22Sectors } from '@/components/sections/Act22Sectors'
 import { Act23Services } from '@/components/sections/Act23Services'
 import { TechStrip } from '@/components/sections/TechStrip'
@@ -49,6 +50,9 @@ export default function Home() {
 
           {/* Act 2.3 — What we work on (expanding tab accordion) */}
           <Act23Services />
+
+          {/* Selected design — 3 featured pieces → /design */}
+          <SelectedDesign />
 
           {/* Compact tools / tech-stack strip */}
           <TechStrip />
