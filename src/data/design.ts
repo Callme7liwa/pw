@@ -70,6 +70,27 @@ export const designPieces: DesignPiece[] = [
     ],
   },
   {
+    slug: 'estore-marketplace',
+    category: 'Web Design',
+    name: 'ESTORE — Online Marketplace',
+    title: 'ESTORE — Large Online Marketplace',
+    tagline: 'A clean, minimalist marketplace across every product category.',
+    color: '#0FA9B8',
+    paragraphs: [
+      'A design concept for a large online marketplace where users shop across many categories — from electronics and furniture to fashion and beauty. The goal was a pleasant, user-friendly interface that makes a huge catalog feel calm and easy to browse.',
+      'The page is organized into clear blocks: a slider showcasing the most current products, cards of popular items, a lookbook featuring the latest collection, and highlights of popular brands — each block designed to showcase product photography at its best.',
+      'A soft, light palette and minimalist layout keep the focus on the products, while orange — the vibrant signature color — highlights key elements and calls to action throughout. The clean aesthetic is built to enhance the shopping experience rather than compete with it.',
+    ],
+    shots: [
+      '/design/marketplace/1.webp',
+      '/design/marketplace/2.webp',
+      '/design/marketplace/3.webp',
+      '/design/marketplace/4.webp',
+      '/design/marketplace/5.webp',
+      '/design/marketplace/6.webp',
+    ],
+  },
+  {
     slug: 'mobile-task-manager',
     category: 'Mobile Design',
     name: 'Task Manager App',
