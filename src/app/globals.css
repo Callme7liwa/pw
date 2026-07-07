@@ -1420,7 +1420,7 @@ body {
   margin-top: 14px;
 }
 
-.design-gallery { display: flex; flex-direction: column; gap: 30px; }
+.design-gallery { display: flex; flex-direction: column; gap: 30px; max-width: 780px; margin: 0 auto; }
 .design-shot {
   display: block;
   width: 100%;
