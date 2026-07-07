@@ -109,6 +109,24 @@ export const designPieces: DesignPiece[] = [
     ],
   },
   {
+    slug: 'estateo-investment-landing',
+    category: 'Web Design',
+    name: 'Estateo — Investment Landing',
+    title: 'Estateo — Investment Real Estate Landing Page',
+    tagline: 'A premium, data-driven landing page for real estate investing.',
+    color: '#0FA9B8',
+    paragraphs: [
+      'A landing page built as the digital gateway for Estateo — aimed at attracting high-net-worth investors through a blend of premium visuals and data-driven storytelling. Large, atmospheric imagery of modern architecture pairs with elegant serif typography to establish a sense of luxury and trust.',
+      'The layout guides users through the platform’s technical capabilities by showcasing real UI snippets from the dashboard within a marketing context. From predictive insights to unified portfolio management, each section demonstrates how the tool solves the pain points of modern real estate investing.',
+      'Varied section backgrounds and subtle shadows add depth, making the long-scroll experience engaging and informative from the first screen to the last.',
+    ],
+    shots: [
+      '/design/realestate2/1.webp',
+      '/design/realestate2/2.webp',
+      '/design/realestate2/3.webp',
+    ],
+  },
+  {
     slug: 'mobile-task-manager',
     category: 'Mobile Design',
     name: 'Task Manager App',
