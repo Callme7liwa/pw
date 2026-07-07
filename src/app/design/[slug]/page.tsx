@@ -74,17 +74,21 @@ export default async function DesignDetailPage({
         </div>
 
         <div className="design-cta">
+          <p className="design-cta-eyebrow">Let’s work together</p>
           <h2 className="design-cta-title">Have a design project in mind?</h2>
           <p className="design-cta-sub">
             Landing page, redesign, or product UI — let’s make it look the part.
           </p>
           <a
             href={siteConfig.calLink}
-            className="btn-pill"
+            className="btn-pill design-cta-btn"
             target="_blank"
             rel="noopener noreferrer"
           >
             Get in touch →
+          </a>
+          <a href={`mailto:${siteConfig.email}`} className="design-cta-mail">
+            or {siteConfig.email}
           </a>
         </div>
       </main>
