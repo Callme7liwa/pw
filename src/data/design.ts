@@ -91,6 +91,24 @@ export const designPieces: DesignPiece[] = [
     ],
   },
   {
+    slug: 'real-estate-website',
+    category: 'Web Design',
+    name: 'Real Estate — Property Rentals',
+    title: 'Real Estate Website — Property Rentals & Apartments',
+    tagline: 'A warm, human take on a property rentals & investment platform.',
+    color: '#0FA9B8',
+    paragraphs: [
+      'We wanted this real estate website to feel different — less corporate, more human. Traditional property sites often prioritize cold efficiency; here the focus was a welcoming, lifestyle-driven experience that balances approachability with the precision high-value investments demand — clarity without sacrificing warmth in the UI.',
+      'The visual language reinforces that balance. A neutral color palette builds trust and calm, while soft shadows and rounded corners add subtle friendliness. A clean sans-serif keeps things readable and understated — professional but inviting for users exploring residential rentals or hospitality features.',
+    ],
+    shots: [
+      '/design/realestate/1.png',
+      '/design/realestate/2.webp',
+      '/design/realestate/3.webp',
+      '/design/realestate/4.webp',
+    ],
+  },
+  {
     slug: 'mobile-task-manager',
     category: 'Mobile Design',
     name: 'Task Manager App',
