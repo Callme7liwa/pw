@@ -52,6 +52,24 @@ export const designPieces: DesignPiece[] = [
     ],
   },
   {
+    slug: 'ecommerce-platform',
+    category: 'Web Design',
+    name: 'Shopcart — E-commerce Platform',
+    title: 'Shopcart — Multi-Category E-commerce Platform',
+    tagline: 'A full storefront: browse, filter, product detail and checkout.',
+    color: '#0FA9B8',
+    paragraphs: [
+      'An end-to-end e-commerce platform design covering the whole buying journey — a filterable category storefront, rich product-detail pages with variants and financing, and a streamlined checkout with order summary and payment.',
+      'Built for scale and clarity: faceted filters (type, price, review, color, material, offer) make a large catalog shoppable, star-rated product cards with instant add-to-cart keep browsing frictionless, and a clean green-and-neutral system keeps the focus on the products.',
+      'Popular-category shortcuts, a wishlist, and a persistent cart round out a storefront designed to move shoppers from discovery to purchase without a wasted click.',
+    ],
+    shots: [
+      '/design/ecommerce-products/1.webp',
+      '/design/ecommerce-products/2.webp',
+      '/design/ecommerce-products/3.webp',
+    ],
+  },
+  {
     slug: 'mobile-task-manager',
     category: 'Mobile Design',
     name: 'Task Manager App',
