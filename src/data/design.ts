@@ -33,6 +33,25 @@ export const designPieces: DesignPiece[] = [
     ],
   },
   {
+    slug: 'crookeries-ecommerce',
+    category: 'Web Design',
+    name: 'HomeDine — Kitchenware Store',
+    title: 'HomeDine — Eco-Friendly Kitchenware E-commerce',
+    tagline: 'A warm, sustainable storefront for eco kitchenware & crockery.',
+    color: '#0FA9B8',
+    paragraphs: [
+      'A storefront concept for an eco-friendly kitchenware and crockery brand, built to make sustainable shopping feel warm and effortless. The page leads with an editorial hero, then flows into curated product rails, best-sellers, new arrivals, and a browsable inspiration gallery.',
+      'A calm, natural palette — sage greens, warm neutrals, and rich lifestyle photography — carries the brand’s eco-conscious positioning, while clear pricing, quick add-to-cart chips, and a 4.9-star review wall keep the path to purchase obvious.',
+      'Every section is designed to balance mood and merchandising: the imagery sells the lifestyle, the layout keeps products scannable, and the sustainability story runs through the whole page without ever getting in the way of the buy.',
+    ],
+    shots: [
+      '/design/crookeries-ecommerce/1.webp',
+      '/design/crookeries-ecommerce/4.webp',
+      '/design/crookeries-ecommerce/2.webp',
+      '/design/crookeries-ecommerce/3.webp',
+    ],
+  },
+  {
     slug: 'mobile-task-manager',
     category: 'Mobile Design',
     name: 'Task Manager App',
