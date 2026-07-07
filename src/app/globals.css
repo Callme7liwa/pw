@@ -1365,6 +1365,20 @@ body {
   margin-top: 18px;
 }
 
+/* Card grid (project picker) — reuses .work-card visuals */
+.design-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+/* Detail page (/design/[slug]) — left-aligned write-up above the gallery */
+.design-detail-head { max-width: 820px; margin: 0 auto 44px; }
+.design-detail-head .work-back { display: inline-block; margin-bottom: 22px; }
+.design-detail-head .design-cat { display: inline-block; }
+
 .design-piece { max-width: 1000px; margin: 0 auto 104px; }
 .design-piece-head { max-width: 720px; margin: 0 auto 40px; text-align: center; }
 .design-cat {
@@ -1445,7 +1459,8 @@ body {
 
 @media (max-width: 640px) {
   .design-page { padding: 96px 20px 72px; }
-  .design-head { margin-bottom: 48px; }
+  .design-head { margin-bottom: 40px; }
+  .design-grid { grid-template-columns: 1fr; gap: 20px; }
   .design-piece { margin-bottom: 72px; }
   .design-gallery { gap: 20px; }
   .design-shot { border-radius: 14px; box-shadow: 5px 5px 0 var(--ink); }

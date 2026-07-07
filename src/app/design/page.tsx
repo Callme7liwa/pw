@@ -1,10 +1,13 @@
 import type { Metadata } from 'next'
+import type { CSSProperties } from 'react'
+import Link from 'next/link'
 import { Nav } from '@/components/layout/Nav'
 import { designPieces } from '@/data/design'
-import { siteConfig } from '@/data/site'
 
 // Raw <img> shots need the deployed base path (static export doesn't prefix it).
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH || ''
+// Make a plain <img> fill the card media box (like next/image fill).
+const fill: CSSProperties = { position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }
 
 export const metadata: Metadata = {
   title: 'Design — Landing Pages & Product UI | Ayoub Seddiki',
@@ -22,53 +25,28 @@ export default function DesignPage() {
           <h1 className="design-title">Interfaces that earn trust — and convert.</h1>
           <p className="design-intro">
             Landing pages and product UI for startups and businesses: structured, credible, and
-            crafted to ship. A few recent pieces.
+            crafted to ship. Pick a project to see the full case.
           </p>
         </header>
 
-        {designPieces.map((p) => (
-          <section key={p.slug} id={p.slug} className="design-piece">
-            <div className="design-piece-head">
-              <span className="design-cat" style={{ background: p.color }}>
-                {p.category}
-              </span>
-              <h2 className="design-piece-title">{p.title}</h2>
-              <p className="design-piece-tagline">{p.tagline}</p>
-              {p.paragraphs.map((para, i) => (
-                <p key={i} className="design-piece-body">
-                  {para}
-                </p>
-              ))}
-            </div>
-
-            <div className="design-gallery">
-              {p.shots.map((src, i) => (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  key={i}
-                  className="design-shot"
-                  src={`${BASE}${src}`}
-                  alt={`${p.title} — shot ${i + 1}`}
-                  loading="lazy"
-                />
-              ))}
-            </div>
-          </section>
-        ))}
-
-        <div className="design-cta">
-          <h2 className="design-cta-title">Have a design project in mind?</h2>
-          <p className="design-cta-sub">
-            Landing page, redesign, or product UI — let’s make it look the part.
-          </p>
-          <a
-            href={siteConfig.calLink}
-            className="btn-pill"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Get in touch →
-          </a>
+        <div className="design-grid">
+          {designPieces.map((p) => (
+            <Link key={p.slug} href={`/design/${p.slug}`} className="work-card">
+              <div className="work-card-media" style={{ background: p.color }}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={`${BASE}${p.shots[0]}`} alt={p.title} className="work-card-img" style={fill} />
+              </div>
+              <div className="work-card-foot">
+                <div className="work-card-foot-top">
+                  <span className="work-card-name">{p.name}</span>
+                  <span className="work-card-tag" style={{ background: p.color, color: '#fff' }}>
+                    {p.category}
+                  </span>
+                </div>
+                <p className="work-card-desc">{p.tagline}</p>
+              </div>
+            </Link>
+          ))}
         </div>
       </main>
     </>

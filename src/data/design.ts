@@ -6,7 +6,8 @@
 export type DesignPiece = {
   slug: string
   category: string // 'Web Design' | 'Mobile Design'
-  title: string
+  name: string // short label for the card
+  title: string // full title on the detail page
   tagline: string // one-line hook
   color: string // category accent (matches the services-accordion tab)
   paragraphs: string[] // full write-up
@@ -17,6 +18,7 @@ export const designPieces: DesignPiece[] = [
   {
     slug: 'banki-fintech-landing',
     category: 'Web Design',
+    name: 'Banki — Fintech Landing',
     title: 'Banki — Banking & Fintech Landing Page',
     tagline: 'A serious, trust-first site for a financial services brand.',
     color: '#0FA9B8',
@@ -33,6 +35,7 @@ export const designPieces: DesignPiece[] = [
   {
     slug: 'mobile-task-manager',
     category: 'Mobile Design',
+    name: 'Task Manager App',
     title: 'Task Manager — Mobile App Concept',
     tagline: 'A calm, pastel productivity concept for everyday use.',
     color: '#E23B4B',
