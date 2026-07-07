@@ -191,6 +191,8 @@ body {
   box-shadow: 0 6px 24px -12px rgba(26, 24, 20, 0.35), 0 1px 0 rgba(255,255,255,0.6) inset;
 }
 .nav-brand {
+  display: inline-flex;
+  align-items: center;
   font-family: var(--font-sans);
   font-weight: 800;
   font-size: 15px;
@@ -198,6 +200,11 @@ body {
   color: var(--ink);
   text-decoration: none;
   white-space: nowrap;
+}
+.nav-logo {
+  height: 30px;
+  width: auto;
+  display: block;
 }
 .nav-links {
   display: flex;

@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { siteConfig } from '@/data/site'
 
 // Section 13 · floating pill navbar. Resolved the open [TBD] toward SOFT
@@ -23,9 +24,15 @@ export function Nav() {
   return (
     <div className="nav-shell">
       <nav className="nav-pill" aria-label="Primary">
-        <Link href="/" className="nav-brand">
-          {siteConfig.initials}
-          <span style={{ color: 'var(--indigo)' }}>.</span>
+        <Link href="/" className="nav-brand" aria-label={siteConfig.name}>
+          <Image
+            src="/logo.png"
+            alt={siteConfig.name}
+            width={738}
+            height={553}
+            className="nav-logo"
+            priority
+          />
         </Link>
 
         <div className="nav-links">
