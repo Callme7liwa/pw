@@ -12,6 +12,7 @@ import { siteConfig } from '@/data/site'
 // /#… so they work from any page (they navigate home, then scroll).
 const links = [
   { label: 'Work', href: '/work' },
+  { label: 'Design', href: '/design' },
   { label: 'Process', href: '/#act4' },
   { label: 'Contact', href: '/#act6' },
 ]
@@ -25,11 +26,13 @@ export function Nav() {
     <div className="nav-shell">
       <nav className="nav-pill" aria-label="Primary">
         <Link href="/" className="nav-brand" aria-label={siteConfig.name}>
+          {/* Size lives on the element (width/height attrs), not just CSS, so a
+              stale globals.css chunk can never let it render at full resolution. */}
           <Image
             src="/logo.png"
             alt={siteConfig.name}
-            width={738}
-            height={553}
+            width={39}
+            height={29}
             className="nav-logo"
             priority
           />

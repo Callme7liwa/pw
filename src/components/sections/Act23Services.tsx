@@ -2,20 +2,23 @@
 
 import { useEffect, useRef, useState } from 'react'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
-import { Globe, Smartphone, Rocket, Bot, Workflow, type LucideIcon } from 'lucide-react'
+import { Globe, Smartphone, Rocket, Bot, Workflow, Palette, PenTool, type LucideIcon } from 'lucide-react'
 
 type Service = {
   key: string
   title: string
-  desc: string
+  desc: string // paragraph for text tabs; one-line caption for image-led tabs
   color: string // flat panel flood color when open
   textOn: string // readable text color on that flood
   Icon: LucideIcon
+  image?: string // when set, the open tab shows this mockup instead of a paragraph
 }
 
 const SERVICES: Service[] = [
   { key: 'web', title: 'Web Dev', desc: 'Fast, scalable web apps and platforms — Next.js front to back.', color: '#2F6BFF', textOn: '#FFFFFF', Icon: Globe },
+  { key: 'web-design', title: 'Web Design', desc: 'Fintech landing page — clean, structured, trust-first.', color: '#0FA9B8', textOn: '#FFFFFF', Icon: Palette, image: '/design/landingpage-fintech/1.png' },
   { key: 'mobile', title: 'Mobile Dev', desc: 'Cross-platform mobile apps that feel native on every device.', color: '#EC2C86', textOn: '#FFFFFF', Icon: Smartphone },
+  { key: 'mobile-design', title: 'Mobile Design', desc: 'Task-manager concept — list, calendar & checklists in calm pastels.', color: '#E23B4B', textOn: '#FFFFFF', Icon: PenTool, image: '/design/mobile-tasks/1.webp' },
   { key: 'saas', title: 'SaaS MVP', desc: 'Idea to launched product in weeks — built to scale after.', color: '#0FB874', textOn: '#08281C', Icon: Rocket },
   { key: 'chatbots', title: 'AI Agent Chatbots', desc: 'Chat agents that qualify, support and convert around the clock.', color: '#7B3FE4', textOn: '#FFFFFF', Icon: Bot },
   { key: 'automation', title: 'Workflow Automation', desc: 'Agents and pipelines that take manual work off your team.', color: '#F5901E', textOn: '#1A1814', Icon: Workflow },
@@ -23,6 +26,8 @@ const SERVICES: Service[] = [
 
 const PAPER = '#F5F0E8'
 const INK_SOFT = '#3D3830'
+// Raw <img> mockups need the deployed base path prepended (unlike next/image).
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH || ''
 const spring = { type: 'spring' as const, stiffness: 320, damping: 26 }
 
 export function Act23Services() {
@@ -96,19 +101,34 @@ export function Act23Services() {
               {/* Title — vertical-rl (contained in this tab), horizontal when open */}
               <div className="svc-title">{s.title}</div>
 
-              {/* Description — slides/fades in after the title settles */}
+              {/* Open content — image-led tabs show a mockup (the proof) with a
+                  one-line caption; the rest show a short paragraph. Both slide/
+                  fade in after the title settles, so all 7 tabs feel coherent. */}
               <AnimatePresence>
-                {isActive && (
-                  <motion.p
-                    className="svc-desc"
-                    initial={{ opacity: 0, y: 14 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: 8 }}
-                    transition={{ delay: 0.16, type: 'spring', stiffness: 260, damping: 24 }}
-                  >
-                    {s.desc}
-                  </motion.p>
-                )}
+                {isActive &&
+                  (s.image ? (
+                    <motion.figure
+                      className="svc-media"
+                      initial={{ opacity: 0, y: 14 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: 8 }}
+                      transition={{ delay: 0.16, type: 'spring', stiffness: 260, damping: 24 }}
+                    >
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img className="svc-img" src={`${BASE}${s.image}`} alt={`${s.title} mockup`} />
+                      <figcaption className="svc-caption">{s.desc}</figcaption>
+                    </motion.figure>
+                  ) : (
+                    <motion.p
+                      className="svc-desc"
+                      initial={{ opacity: 0, y: 14 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: 8 }}
+                      transition={{ delay: 0.16, type: 'spring', stiffness: 260, damping: 24 }}
+                    >
+                      {s.desc}
+                    </motion.p>
+                  ))}
               </AnimatePresence>
             </motion.div>
           )

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Web design mockup placeholder">
+  <rect width="800" height="500" fill="#FBF8F2"/>
+  <!-- browser window -->
+  <rect x="60" y="48" width="680" height="404" rx="16" fill="#FFFFFF" stroke="#1A1814" stroke-width="3"/>
+  <path d="M60 64 a16 16 0 0 1 16 -16 h648 a16 16 0 0 1 16 16 v34 h-680 z" fill="#EFE9DE"/>
+  <circle cx="90" cy="81" r="6" fill="#EF6A54"/>
+  <circle cx="112" cy="81" r="6" fill="#EFCB4D"/>
+  <circle cx="134" cy="81" r="6" fill="#7FB03B"/>
+  <rect x="168" y="73" width="470" height="16" rx="8" fill="#DED6C8"/>
+  <!-- hero copy -->
+  <rect x="92" y="140" width="250" height="30" rx="7" fill="#1A1814"/>
+  <rect x="92" y="182" width="300" height="30" rx="7" fill="#0FA9B8"/>
+  <rect x="92" y="230" width="220" height="14" rx="7" fill="#C2B9A9"/>
+  <rect x="92" y="252" width="250" height="14" rx="7" fill="#C2B9A9"/>
+  <rect x="92" y="292" width="130" height="38" rx="19" fill="#1A1814"/>
+  <rect x="236" y="292" width="110" height="38" rx="19" fill="none" stroke="#1A1814" stroke-width="2"/>
+  <!-- hero visual -->
+  <rect x="430" y="140" width="278" height="200" rx="12" fill="#EAF7F8" stroke="#CFE9EC" stroke-width="2"/>
+  <circle cx="500" cy="200" r="22" fill="#0FA9B8"/>
+  <path d="M452 300 L512 236 L556 280 L620 214 L688 300 Z" fill="#BFE4E8"/>
+  <!-- feature cards -->
+  <rect x="92" y="360" width="190" height="66" rx="12" fill="#F6F1E8" stroke="#E2DACC" stroke-width="2"/>
+  <rect x="305" y="360" width="190" height="66" rx="12" fill="#F6F1E8" stroke="#E2DACC" stroke-width="2"/>
+  <rect x="518" y="360" width="190" height="66" rx="12" fill="#F6F1E8" stroke="#E2DACC" stroke-width="2"/>
+</svg>
