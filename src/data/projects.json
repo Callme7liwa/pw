@@ -591,5 +591,234 @@
         "body": "Under the product sits a serious access-control layer. Every practitioner owns an isolated, multi-tenant workspace that only goes live after an approval workflow (pending → approved / rejected), managed by platform admins with a full audit log. Team members are invited by email into admin / dentist / assistant roles, then narrowed further by per-action permissions and per-member data-visibility overrides. Accounts are protected by JWT sessions with email-OTP multi-factor auth, bcrypt hashing, rate limiting and security headers — and access control is enforced on every clinical, billing and inventory action, not just the UI."
       }
     ]
+  },
+  {
+    "slug": "echo-ai",
+    "name": "Echo AI",
+    "sector": "education",
+    "type": "AI EdTech SaaS",
+    "cover": "/projects/EchoAi/landing_page.png",
+    "tagline": "An all-in-one AI study companion that replaces a dozen scattered tools.",
+    "blurb": "A premium EdTech SaaS combining GPT-4 tutoring, interactive PDF analysis and voice lecture notes — synced live with Canvas LMS.",
+    "seoTitle": "Echo AI — All-in-One AI Study Companion (EdTech SaaS Case Study)",
+    "seoDescription": "Echo AI is a premium EdTech SaaS study companion combining personalized GPT-4 tutoring, interactive PDF analysis, automated voice lecture notes, spaced-repetition flashcards, smart planning and gap-analysis quizzes — synced with Canvas LMS and built with React, Supabase and Stripe.",
+    "overview": "Echo AI is a premium EdTech SaaS acting as an all-in-one AI study companion. It replaces the fragmented stack of tools students juggle by combining personalized GPT-4 tutoring, interactive PDF analysis and automated voice lecture notes in one workspace. It securely syncs with Canvas LMS to import courses, assignments and grades in real time, and drives study success with spaced-repetition flashcards, smart calendar planning and gap-analysis quizzes. Built with React and Supabase, it ships monetization-ready — Stripe payments, admin control dashboards and student-privacy compliance.",
+    "highlights": [
+      "GPT-4 personalized tutoring",
+      "Interactive PDF analysis",
+      "Voice lecture notes",
+      "Canvas LMS live sync",
+      "Spaced-repetition flashcards",
+      "Gap-analysis quizzes",
+      "Stripe monetization"
+    ],
+    "tech": ["React", "TypeScript", "Supabase", "GPT-4 / OpenAI", "Stripe"],
+    "sections": [
+      {
+        "title": "AI tutor",
+        "image": "/projects/EchoAi/chat_ui.png",
+        "body": "A GPT-4 tutor that knows the student's own material. It answers questions in context, explains concepts at the right level, and works from the courses and documents already in the workspace — so help feels personal instead of generic."
+      },
+      {
+        "title": "Interactive PDF & document analysis",
+        "images": [
+          "/projects/EchoAi/document_preview.png",
+          "/projects/EchoAi/document_summary.png",
+          "/projects/EchoAi/document_graph.png"
+        ],
+        "body": "Upload a PDF and Echo turns it into something you can actually study — a clean preview, an AI summary of the key points, and a concept graph that maps how ideas connect. Dense lecture slides and readings become navigable in seconds."
+      },
+      {
+        "title": "Study hub & planning",
+        "image": "/projects/EchoAi/study_hub.png",
+        "body": "A single hub pulls courses, assignments and grades from Canvas in real time, then layers on smart calendar planning so students always know what to work on next — spaced-repetition reviews and deadlines organized into a realistic plan."
+      },
+      {
+        "title": "Quizzes & gap analysis",
+        "images": ["/projects/EchoAi/qcm.png", "/projects/EchoAi/quiz_report.png"],
+        "body": "Auto-generated quizzes test understanding, and a gap-analysis report shows exactly where the student is weak — turning study time toward what actually needs work instead of re-reading what they already know."
+      },
+      {
+        "title": "Monetization & admin",
+        "images": ["/projects/EchoAi/billing.png", "/projects/EchoAi/user_management.png"],
+        "body": "Echo ships ready to sell: Stripe-powered billing and plans, an admin control dashboard for user management, and student-privacy compliance built in — the operational layer a real SaaS needs from day one."
+      }
+    ],
+    "gallery": [
+      "/projects/EchoAi/home_page.png",
+      "/projects/EchoAi/documents.png",
+      "/projects/EchoAi/profile.png",
+      "/projects/EchoAi/settings.png"
+    ]
+  },
+  {
+    "slug": "clinic-hero",
+    "name": "Clinic Hero",
+    "sector": "healthcare",
+    "type": "Practice Management Platform",
+    "cover": "/projects/Clinic/PAGE_1.png",
+    "tagline": "One HIPAA-compliant platform to run a medical aesthetics clinic.",
+    "blurb": "Unifies patient bookings, electronic health records, inventory and membership programs into a single modern, HIPAA-compliant platform.",
+    "seoTitle": "Clinic Hero — Medical Aesthetics Practice Management Platform (Case Study)",
+    "seoDescription": "Clinic Hero is a HIPAA-compliant practice management platform for medical aesthetics clinics — unifying patient bookings, electronic health records, inventory and membership programs into one modern system.",
+    "overview": "Clinic Hero gives medical aesthetics clinics a single, modern platform to replace the fragmented systems they juggle — patient bookings, electronic health records, inventory and membership programs, all in one place. It maintains HIPAA compliance throughout while delivering the premium, on-brand patient experience these clinics are known for, so the operational back office never gets in the way of the front-of-house feel.",
+    "highlights": [
+      "Patient booking & scheduling",
+      "Electronic health records",
+      "Inventory management",
+      "Membership programs",
+      "HIPAA compliant"
+    ],
+    "tech": ["React", "TypeScript", "Node.js", "PostgreSQL", "HIPAA-compliant infra"],
+    "gallery": [
+      "/projects/Clinic/PAGE_1.png",
+      "/projects/Clinic/PAGE_2.png",
+      "/projects/Clinic/PAGE_3.png",
+      "/projects/Clinic/PAGE_4.png",
+      "/projects/Clinic/PAGE_5.png",
+      "/projects/Clinic/PAGE_6.png"
+    ]
+  },
+  {
+    "slug": "luxe-travel-agency",
+    "name": "Luxe Travel Agency",
+    "sector": "travel",
+    "type": "Marketing Website",
+    "cover": "/projects/TravelAgency/PAGE_1.png",
+    "tagline": "A digital concierge experience for a luxury travel brand.",
+    "blurb": "A premium website that conveys exclusivity and trust — a digital concierge experience positioning the agency as an authority in luxury travel.",
+    "seoTitle": "Luxe Travel Agency — Luxury Travel Website (Case Study)",
+    "seoDescription": "A premium website for a luxury travel agency, designed as a digital concierge experience that conveys exclusivity, trust and unparalleled service — positioning the brand as an authority in luxury travel.",
+    "overview": "A premium website for a luxury travel agency, built to convey exclusivity, trust and unparalleled service. Rather than another standard booking platform, it's designed as a digital concierge experience — positioning the agency as an authority in luxury travel and making every touchpoint feel considered, editorial and high-end, from the first scroll to the enquiry.",
+    "highlights": [
+      "Luxury brand identity",
+      "Digital concierge experience",
+      "Curated destinations",
+      "Editorial, high-end feel",
+      "Trust & exclusivity"
+    ],
+    "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    "gallery": [
+      "/projects/TravelAgency/PAGE_1.png",
+      "/projects/TravelAgency/PAGE_2.png",
+      "/projects/TravelAgency/PAGE_3.png",
+      "/projects/TravelAgency/PAGE_4.png",
+      "/projects/TravelAgency/PAGE_5.png",
+      "/projects/TravelAgency/PAGE_6.png",
+      "/projects/TravelAgency/PAGE_7.png",
+      "/projects/TravelAgency/PAGE_8.png"
+    ]
+  },
+  {
+    "slug": "ai-trivia-game",
+    "name": "AI Trivia Game",
+    "sector": "ai",
+    "type": "AI Web App",
+    "cover": "/projects/TriviaGame/PAGE_1.png",
+    "tagline": "AI-generated trivia on any topic, with a host that reacts to you.",
+    "blurb": "Generates trivia questions on any user-defined topic, tracks your score, and delivers personality-driven, reactive host commentary.",
+    "seoTitle": "AI Trivia Game — AI-Generated Trivia with a Reactive Host (Case Study)",
+    "seoDescription": "An AI trivia web app that generates questions on any user-defined topic, tracks scores, reacts dynamically to correct and incorrect answers, and ends each game with a personality-driven summary.",
+    "overview": "AI Trivia Game turns any topic a player types into a live quiz. It generates questions on demand, tracks scoring across the round, and wraps everything in a personality-driven host that reacts dynamically to correct and incorrect answers — ending each game with a tailored, characterful summary that makes solo play feel like a hosted game show.",
+    "highlights": [
+      "AI-generated questions on any topic",
+      "Dynamic host reactions",
+      "Score tracking",
+      "Personality-driven end-game summaries"
+    ],
+    "tech": ["React", "TypeScript", "OpenAI API"],
+    "gallery": [
+      "/projects/TriviaGame/PAGE_1.png",
+      "/projects/TriviaGame/PAGE_2.png",
+      "/projects/TriviaGame/PAGE_3.png",
+      "/projects/TriviaGame/PAGE_4.png"
+    ]
+  },
+  {
+    "slug": "rag-knowledge-assistant",
+    "name": "RAG Knowledge Assistant",
+    "sector": "ai",
+    "type": "AI / RAG System",
+    "cover": "/projects/RAG/hero.png",
+    "tagline": "Turn scattered docs into one intelligent, synthesized answer.",
+    "blurb": "A retrieval-augmented system that unifies fragmented documentation — PDFs, wikis and files — into one assistant that synthesizes answers across sources.",
+    "seoTitle": "RAG Knowledge Assistant — Retrieval-Augmented Document Intelligence (Case Study)",
+    "seoDescription": "A retrieval-augmented generation (RAG) system that ingests an organization's scattered documents, PDFs and wikis and answers natural-language questions with synthesized, cited answers drawn across every relevant source.",
+    "overview": "Organizations struggle with fragmented documentation and inefficient knowledge retrieval — teams spend hours searching scattered documents, PDFs and wikis with no unified, intelligent way to synthesize information across sources. This RAG (retrieval-augmented generation) system fixes that: it ingests documents from across the organization and lets anyone ask a question in plain language, returning a synthesized, cited answer drawn from every relevant source instead of a list of links to dig through.",
+    "highlights": [
+      "Unified document ingestion",
+      "Natural-language retrieval",
+      "Cross-source synthesis",
+      "Cited answers",
+      "PDF & wiki support"
+    ],
+    "tech": ["Python", "LangChain", "Vector DB", "OpenAI embeddings", "React"],
+    "gallery": [
+      "/projects/RAG/hero.png",
+      "/projects/RAG/RAG_1.png",
+      "/projects/RAG/RAG_2.png",
+      "/projects/RAG/RAG_3.png",
+      "/projects/RAG/RAG_4.png",
+      "/projects/RAG/RAG_5.png"
+    ]
+  },
+  {
+    "slug": "white-label-ecommerce",
+    "name": "Modern E-Commerce Platform",
+    "sector": "ecommerce",
+    "type": "White-label SaaS",
+    "cover": "/projects/E-store/PAGE_1.png",
+    "tagline": "A white-label storefront platform agencies resell as their own.",
+    "blurb": "A white-label e-commerce platform a marketing agency offers under its own brand — premium quality without expensive per-store Shopify fees.",
+    "seoTitle": "Modern E-Commerce Platform — White-Label Storefront SaaS (Case Study)",
+    "seoDescription": "A white-label e-commerce platform built for a marketing agency to offer under its own brand across 15+ clients — eliminating expensive Shopify subscriptions while keeping premium quality.",
+    "overview": "A marketing agency serving 15+ e-commerce clients needed a white-label platform to offer under their own brand — eliminating expensive Shopify subscriptions while keeping premium quality. This platform delivers exactly that: a modern, fully brandable storefront the agency deploys for each client, so they control the product, the margins and the experience end to end instead of paying (and re-selling) someone else's SaaS.",
+    "highlights": [
+      "White-label / re-brandable",
+      "Modern storefront",
+      "No per-store SaaS fees",
+      "Multi-client ready",
+      "Premium quality"
+    ],
+    "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
+    "gallery": [
+      "/projects/E-store/PAGE_1.png",
+      "/projects/E-store/PAGE_2.png",
+      "/projects/E-store/PAGE_3.png",
+      "/projects/E-store/PAGE_4.png",
+      "/projects/E-store/PAGE_5.png",
+      "/projects/E-store/PAGE_6.png",
+      "/projects/E-store/PAGE_7.png",
+      "/projects/E-store/PAGE_8.png"
+    ]
+  },
+  {
+    "slug": "nexus-agency-saas",
+    "name": "Nexus — Agency SaaS",
+    "sector": "crm",
+    "type": "SaaS Dashboard",
+    "cover": "/projects/Nexus-Saas/Screen_1.png",
+    "tagline": "Run unlimited agency clients from one professional dashboard.",
+    "blurb": "Helps agencies manage unlimited clients from a single professional dashboard — saving 10+ hours a week.",
+    "seoTitle": "Nexus — Agency Client Management SaaS Dashboard (Case Study)",
+    "seoDescription": "Nexus is a SaaS dashboard that helps agencies manage unlimited clients from one professional workspace, replacing scattered tools and saving teams 10+ hours per week.",
+    "overview": "Nexus helps agencies manage unlimited clients from one professional dashboard — replacing the patchwork of tools and spreadsheets a growing agency runs on. By centralizing client management in a single, scalable workspace, it saves teams 10+ hours per week and gives owners a clear, real-time view of every account, so scaling the roster doesn't mean scaling the chaos.",
+    "highlights": [
+      "Unlimited client management",
+      "One professional dashboard",
+      "10+ hours saved per week",
+      "Real-time account view",
+      "Built to scale"
+    ],
+    "tech": ["Next.js", "TypeScript", "Supabase", "Stripe"],
+    "gallery": [
+      "/projects/Nexus-Saas/Screen_1.png",
+      "/projects/Nexus-Saas/Screen_2.png",
+      "/projects/Nexus-Saas/Screen_3.png",
+      "/projects/Nexus-Saas/Screen_4.png",
+      "/projects/Nexus-Saas/Screen_5.png",
+      "/projects/Nexus-Saas/Screen_6.png",
+      "/projects/Nexus-Saas/Screen_7.png"
+    ]
   }
 ]

@@ -17,6 +17,8 @@ export const workSectors: WorkSector[] = [
   { key: 'field-service', label: 'Field Service', color: '#C08457' }, // clay / bronze (trades & contractors)
   { key: 'healthcare', label: 'Healthcare', color: '#5FC7B4' }, // teal
   { key: 'marketplace', label: 'Marketplaces', color: '#EF6A54' }, // coral / red
+  { key: 'ecommerce', label: 'E-commerce', color: '#E15D8A' }, // pink / magenta
+  { key: 'travel', label: 'Travel', color: '#C79A3E' }, // champagne gold (luxury)
   { key: 'fitness', label: 'Fitness', color: '#F2913E' }, // orange
   { key: 'sports', label: 'Sports', color: '#4F9E57' }, // green / gold
   { key: 'ai', label: 'AI & Automation', color: '#4FC3D6' }, // electric cyan / violet
